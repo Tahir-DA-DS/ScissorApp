@@ -725,7 +725,6 @@ gap: 10px;
   height: 561px;
   justify-content: center;
   margin-top: 98px;
-  
 }
 
 .aside-logo {
@@ -788,4 +787,59 @@ gap: 10px;
 .f-img {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 750px) {
+
+  .container-0{
+    margin: auto;
+  }
+  .header-links,
+  .log,
+  .btn-2 {
+    display: none;
+  }
+
+  .header {
+    position: sticky;
+    top:40px;
+  }
+
+  .frame {
+    width: 80%;
+    height: 165px;
+    margin: 65px auto 0 auto;
+  }
+
+  .log,
+  .btn-2{
+    width:15%;
+  }
+  .rec{
+    width:95%
+  }
+.elipse{
+  width:67%;
+
+}
+
+.stat{
+  flex-direction: column;
+  gap:0;
+  width: 80%;
+  height: 40%;
+  align-items: center;
+  margin: auto;
+
+}
+
+.vector-2{
+  display: none;
+  /* width:20%;
+  position:absolute;
+  left:45px;
+  top:-40; */
+  
+}
+
 }
